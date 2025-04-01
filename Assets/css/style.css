@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+/* ==== REMOVING THE DEFAULT STYLING OF ALL ELEMENTS */
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
