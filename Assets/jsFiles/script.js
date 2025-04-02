@@ -18,7 +18,10 @@ const nav = document.querySelector(".nav"),
             navList[j].querySelector("a").classList.remove("active");
           }
           this.classList.add("active")
-          showSection(this);
+          // showSection(this);
+          if(window.innerWidth < 1200){
+            asideSectionToggleBtn();
+          }
         })
       }
       function showSection(element){
