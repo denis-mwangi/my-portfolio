@@ -46,7 +46,7 @@
                         <h3 class="hello">Hello, my name is, <span class="name">Dennis Mungai</span></h3>
                         <h3 class="my-profession">I'm a <span class="typing">Web Developer</span></h3>
                         <p>Welcome! I'm <span class="name">Dennis</span>, a passionate student deeply immersed in the world of web development. This portfolio highlights the skills I'm actively acquiring and refining, showcasing my dedication to mastering the tools and techniques of modern web creation. </p>
-                        <a href="#contact" class="btn">Contact</a>
+                        <a href="#emailForm" class="btn">Contact</a>
                         <a href="#" class=""></a>
                     </div>
                     <div class="home-img padd-15">
@@ -356,7 +356,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="row">
+                            <div class="row" id="emailForm">
                                 <div class="form-item col-12 padd-15">
                                     <div class="form-group">
                                         <input type="text" name="subject" class="form-control" placeholder="Subject" required>
@@ -373,6 +373,8 @@
                             <div class="row">
                                 <div class="form-item col-12 padd-15">
                                     <button type="submit" class="btn" >Send Message</button>
+                                    <input type="hidden" name="_template" value="table">
+                                    <input type="hidden" name="_captcha" value="false">
                                 </div>
                             </div>
                         </div>
@@ -381,7 +383,7 @@
                 <!-- CONTACT FORM ENDS HERE -->
             </div>
         </section>
-        <!-- ====== CPNTACT SECTION ENDS HERE ====== -->
+        <!-- ====== CONTACT SECTION ENDS HERE ====== -->
 
         </div>
 
