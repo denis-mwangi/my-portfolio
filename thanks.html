@@ -1,0 +1,179 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thank You | We Appreciate Your Support</title>
+    <meta name="description" content="Thank you for your support. We're grateful for your trust and look forward to serving you again." />
+    <meta name="author" content="Lovable" />
+
+    <meta property="og:title" content="Thank You | We Appreciate Your Support" />
+    <meta property="og:description" content="Thank you for your support. We're grateful for your trust and look forward to serving you again." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@lovable_dev" />
+    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    
+    <link rel="stylesheet" href="/thanks.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <canvas id="particles-canvas"></canvas>
+      <div class="wave-background">
+        <div class="wave-container">
+          <svg 
+            class="wave-animation"
+            viewBox="0 0 1440 320" 
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path 
+              fill="#fa5b0f" 
+              fill-opacity="1" 
+              d="M0,192L48,197.3C96,203,192,213,288,192C384,171,480,117,576,112C672,107,768,149,864,165.3C960,181,1056,171,1152,149.3C1248,128,1344,96,1392,80L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+            ></path>
+          </svg>
+          <svg 
+            class="wave-animation" 
+            style="animation-delay: -5s; opacity: 0.7;"
+            viewBox="0 0 1440 320" 
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path 
+              fill="#fa5b0f" 
+              fill-opacity="0.8" 
+              d="M0,256L48,240C96,224,192,192,288,181.3C384,171,480,181,576,192C672,203,768,213,864,202.7C960,192,1056,160,1152,154.7C1248,149,1344,171,1392,181.3L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+            ></path>
+          </svg>
+        </div>
+        <div class="gradient-overlay"></div>
+      </div>
+      
+      <div class="content">
+        <!-- Header section -->
+        <div class="header fade-in">
+          <h1>
+            <span class="float-animation">Thank</span>
+            <span class="float-animation" style="animation-delay: 0.2s;"> You</span>
+            <span class="pulse-animation">!</span>
+          </h1>
+          
+          <div class="divider"></div>
+        </div>
+        
+        <!-- Main content -->
+        <div class="main-content">
+          <!-- Message -->
+          <div class="thank-you-card" style="animation-delay: 0.3s;">
+            <p class="message-primary">
+              Your support means the world to me. I'm truly grateful that you've chosen to be part of our journey.
+            </p>
+            <p class="message-secondary">
+              I'm committed to delivering an exceptional experience and can't wait to connect with you again soon.
+            </p>
+            <div class="heart">
+              ❤
+            </div>
+          </div>
+          
+          <!-- CTA Section -->
+          <div class="thank-you-card cta-section" style="animation-delay: 0.6s;">
+            <p>
+              Ready to continue your journey?
+            </p>
+            <button id="return-home" class="thank-you-button">
+              <a href="/index.html"><span class="button-text">Return Home</span></a>
+              <span class="button-gradient"></span>
+            </button>
+          </div>
+        </div>
+        
+        <!-- Footer -->
+        <footer class="thank-you-card" style="animation-delay: 0.9s;">
+          <p>© <span id="current-year"></span> Dennis Mungai. All rights reserved.</p>
+        </footer>
+      </div>
+    </div>
+
+    <script>
+      // Set current year
+      document.getElementById('current-year').textContent = new Date().getFullYear();
+      
+      // Button click handler
+      document.getElementById('return-home').addEventListener('click', function() {
+        console.log('Button clicked');
+      });
+      
+      // Particles animation
+      const canvas = document.getElementById('particles-canvas');
+      const ctx = canvas.getContext('2d');
+      
+      function setCanvasDimensions() {
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+      }
+      
+      setCanvasDimensions();
+      window.addEventListener('resize', setCanvasDimensions);
+      
+      // Particle class
+      class Particle {
+        constructor() {
+          this.x = Math.random() * canvas.width;
+          this.y = Math.random() * canvas.height;
+          this.size = Math.random() * 3 + 1;
+          this.speedX = Math.random() * 0.5 - 0.25;
+          this.speedY = Math.random() * 0.5 - 0.25;
+          
+          // Orange color with random opacity
+          const opacity = Math.random() * 0.5 + 0.1;
+          this.color = `rgba(250, 91, 15, ${opacity})`;
+        }
+        
+        update() {
+          this.x += this.speedX;
+          this.y += this.speedY;
+          
+          if (this.x > canvas.width) this.x = 0;
+          else if (this.x < 0) this.x = canvas.width;
+          
+          if (this.y > canvas.height) this.y = 0;
+          else if (this.y < 0) this.y = canvas.height;
+        }
+        
+        draw() {
+          ctx.fillStyle = this.color;
+          ctx.beginPath();
+          ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+          ctx.closePath();
+          ctx.fill();
+        }
+      }
+      
+      // Create particles
+      const particles = [];
+      const particleCount = Math.min(window.innerWidth / 10, 50);
+      
+      for (let i = 0; i < particleCount; i++) {
+        particles.push(new Particle());
+      }
+      
+      // Animation loop
+      function animate() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        
+        particles.forEach(particle => {
+          particle.update();
+          particle.draw();
+        });
+        
+        requestAnimationFrame(animate);
+      }
+      
+      animate();
+    </script>
+  </body>
+</html>

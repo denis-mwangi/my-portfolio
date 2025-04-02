@@ -1,0 +1,312 @@
+
+/* Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #151515;
+    color: #ffffff;
+    min-height: 100vh;
+    overflow-x: hidden;
+    text-decoration: none;
+    list-style: none;
+  }
+
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  .container {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding: 3rem 1rem;
+    text-align: center;
+  }
+  
+  /* Background Elements */
+  #particles-canvas {
+    position: fixed;
+    inset: 0;
+    z-index: -20;
+    opacity: 0.4;
+  }
+  
+  .wave-background {
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+    z-index: -10;
+  }
+  
+  .wave-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 8rem;
+    opacity: 0.2;
+  }
+  
+  @media (min-width: 768px) {
+    .wave-container {
+      height: 16rem;
+    }
+  }
+  
+  .wave-animation {
+    position: absolute;
+    bottom: 0;
+    width: 200%;
+    height: 100%;
+    animation: wave 25s linear infinite;
+    transform-origin: 50% 50%;
+  }
+  
+  .gradient-overlay {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #151515;
+    background-image: radial-gradient(ellipse at center, rgba(250, 91, 15, 0.15) 0%, rgba(21, 21, 21, 0) 70%);
+  }
+  
+  /* Content Styles */
+  .content {
+    max-width: 64rem;
+    margin: 0 auto;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+  }
+  
+  /* Header Section */
+  .header {
+    transition: all 1s;
+  }
+  
+  .header h1 {
+    font-size: 3rem;
+    line-height: 1.2;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    letter-spacing: -0.025em;
+    color: white;
+  }
+  
+  @media (min-width: 768px) {
+    .header h1 {
+      font-size: 4.5rem;
+    }
+  }
+  
+  .divider {
+    height: 0.25rem;
+    width: 6rem;
+    margin: 0 auto;
+    border-radius: 9999px;
+    background: linear-gradient(90deg, #fa5b0f 0%, #fa5b0f 50%, #fa5b0f 100%);
+    background-size: 200% 200%;
+    animation: gradientFlow 15s ease infinite;
+  }
+  
+  @media (min-width: 768px) {
+    .divider {
+      width: 8rem;
+    }
+  }
+  
+  /* Card Styles */
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+  
+  .thank-you-card {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 1s ease forwards;
+  }
+  
+  .thank-you-card:first-child {
+    background-color: rgba(30, 30, 30, 0.5);
+    backdrop-filter: blur(4px);
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(250, 91, 15, 0.2);
+    max-width: 32rem;
+    margin: 0 auto;
+  }
+  
+  .message-primary {
+    font-size: 1.25rem;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 1.5rem;
+  }
+  
+  @media (min-width: 768px) {
+    .message-primary {
+      font-size: 1.5rem;
+    }
+  }
+  
+  .message-secondary {
+    font-size: 1.125rem;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 1.5rem;
+  }
+  
+  .heart {
+    color: #fa5b0f;
+    font-size: 1.875rem;
+    font-weight: 300;
+  }
+  
+  /* CTA Section */
+  .cta-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  
+  .cta-section p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.125rem;
+  }
+  
+  /* Button Styles */
+  .thank-you-button {
+    position: relative;
+    overflow: hidden;
+    padding: 0.75rem 1.5rem;
+    border-radius: 9999px;
+    background-color: #fa5b0f;
+    color: white;
+    font-weight: 500;
+    transition: all 0.3s;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(250, 91, 15, 0.3);
+    transform: translateY(0);
+  }
+  
+  .thank-you-button:hover {
+    background-color: #e05009;
+    transform: translateY(-4px);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(250, 91, 15, 0.3);
+  }
+  
+  .thank-you-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px rgba(250, 91, 15, 0.3);
+  }
+  
+  .button-text {
+    position: relative;
+    z-index: 10;
+  }
+  
+  .button-gradient {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, #ff8c42 0%, #fa5b0f 100%);
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .thank-you-button:hover .button-gradient {
+    opacity: 1;
+  }
+  
+  /* Footer */
+  footer {
+    margin-top: auto;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.875rem;
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes pulse {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+  }
+  
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+  
+  @keyframes gradientFlow {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  @keyframes wave {
+    0% {
+      transform: translateX(0) translateZ(0) scaleY(1);
+    }
+    50% {
+      transform: translateX(-25%) translateZ(0) scaleY(0.8);
+    }
+    100% {
+      transform: translateX(-50%) translateZ(0) scaleY(1);
+    }
+  }
+  
+  .fade-in {
+    animation: fadeIn 1s ease forwards;
+  }
+  
+  .float-animation {
+    display: inline-block;
+    animation: float 6s ease-in-out infinite;
+  }
+  
+  .pulse-animation {
+    display: inline-block;
+    color: #fa5b0f;
+    animation: pulse 3s ease-in-out infinite;
+  }

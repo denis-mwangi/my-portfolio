@@ -8,6 +8,14 @@
     <link rel="stylesheet" href="/Assets/css/style.css">
     <link rel="stylesheet" href="/Assets/css/color-1.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- ==== STYLE SWITCER ==== -->
+    <link rel="stylesheet" href="/Assets/css/color-1.css" class="alternate-style" title="color-1">
+    <link rel="stylesheet" href="/Assets/css/color-2.css" class="alternate-style" title="color-2">
+    <link rel="stylesheet" href="/Assets/css/color-3.css" class="alternate-style" title="color-3">
+    <link rel="stylesheet" href="/Assets/css/color-3.css" class="alternate-style" title="color-4">
+    <link rel="stylesheet" href="/Assets/css/color-4.css" class="alternate-style" title="color-5">
+    <link rel="stylesheet" href="/Assets/css/style-switcher.css">
 </head>
 <body>
     <!-- ====== MAIN CONTAINER STARTS HERE ======  -->
@@ -45,9 +53,9 @@
                     <div class="home-info padd-15">
                         <h3 class="hello">Hello, my name is, <span class="name">Dennis Mungai</span></h3>
                         <h3 class="my-profession">I'm a <span class="typing">Web Developer</span></h3>
-                        <p>Welcome! I'm <span class="name">Dennis</span>, a passionate student deeply immersed in the world of web development. This portfolio highlights the skills I'm actively acquiring and refining, showcasing my dedication to mastering the tools and techniques of modern web creation. </p>
+                        <p>I'm <span class="name">Dennis</span>, a passionate student deeply immersed in the world of web development. This portfolio highlights the skills I'm actively acquiring and refining, showcasing my dedication to mastering the tools and techniques of modern web creation. </p>
                         <a href="#emailForm" class="btn">Contact</a>
-                        <a href="#" class=""></a>
+                        <a href="#" class="btn">Whatsapp</a>
                     </div>
                     <div class="home-img padd-15">
                         <img src="/Assets/images/prof.jpeg" alt="My-picture">
@@ -87,7 +95,7 @@
                                         <p>Webiste : <span>www.denweb.great-site.net</span></p>
                                     </div>
                                     <div class="info-item padd-15">
-                                        <p>Email : <span>denwebservices@gmail.com</span></p>
+                                        <p>Email : <span>denwe@gmail.com</span></p>
                                     </div>
                                     <div class="info-item padd-15">
                                         <p>Degree : <span>Bsc. Electrical Engineering</span></p>
@@ -145,6 +153,7 @@
                                 </div>
                             </div>
                             <!-- SKILLS SUBSECTION END -->
+
                         </div>
                         <div class="row">
                             <div class="education padd-15">
@@ -159,7 +168,7 @@
                                                     <i class="fa fa-calendar"></i> 2023 - Present
                                                 </h3>
                                                 <h4 class="timeline-title">Multimedia University of Kenya</h4>
-                                                <p> Bsc. Electrical and Telecommunication<p>
+                                                <p>Bachelor of Science in Electrical Engineering</p>
                                                 <p>Nairobi, Kenya</p>
                                             </div>
                                             <div class="timeline-item">
@@ -374,6 +383,7 @@
                                 <div class="form-item col-12 padd-15">
                                     <button type="submit" class="btn" >Send Message</button>
                                     <input type="hidden" name="_template" value="table">
+                                    <input type="hidden" name="_next" value="http://127.0.0.1:5501//thanks.html">
                                     <input type="hidden" name="_captcha" value="false">
                                 </div>
                             </div>
@@ -393,6 +403,25 @@
 
     <!-- ====== MAIN CONTAINER ENDS HERE ======  -->
 
+    <!-- ======== STYLE SWITCHER START ======== -->
+    <div class="style-switcher">
+        <div class="style-switcher-toggler s-icon">
+            <i class="fas fa-cog fa-spin"></i>
+        </div>
+        <div class="fa day-night s-icon">
+            <i class="fas "></i>
+        </div>
+        <h4>Theme Colors</h4>
+        <div class="colors">
+            <span class="color-1" onclick="setActiveStyle('color-1')" ></span>
+            <span class="color-2" onclick="setActiveStyle('color-2')" ></span>
+            <span class="color-3" onclick="setActiveStyle('color-3')" ></span>
+            <span class="color-4" onclick="setActiveStyle('color-4')" ></span>
+            <span class="color-5" onclick="setActiveStyle('color-5')" ></span>
+        </div>
+    </div>
+    <!-- ======== STYLE SWITCHER END ======== -->
+
 
 
 
@@ -407,5 +436,6 @@
 
 
     <script src="/Assets/jsFiles/script.js"></script>
+    <script src="/Assets/jsFiles/style-switcher.js"></script>
 </body>
 </html>
