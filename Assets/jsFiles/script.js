@@ -18,12 +18,14 @@ const nav = document.querySelector(".nav"),
             navList[j].querySelector("a").classList.remove("active");
           }
           this.classList.add("active")
-          // showSection(this);
+          showSection(this);
         })
       }
       function showSection(element){
-        const target = element.getAttribute("href").split("#")[1];
-        document.querySelector("#" + target).classList.add("active")
+        for(let i=0; i<totalNavList; i++){
+          allSection[i].classList.remove(
+        "active")
+        }
       }
       // TOGGLE NAV BAR FOR MOBILE PHONES
       const navToggleBtn = document.querySelector(".nav-toggler"),
@@ -33,4 +35,5 @@ const nav = document.querySelector(".nav"),
             })
             function asideSectionToggleBtn(){
               aside.classList.toggle("open");
+              navToggleBtn.classList.toggle("open");
             }
