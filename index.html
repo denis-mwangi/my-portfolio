@@ -4,18 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>👋 Denoe's-portfolio 😊</title>
-    <!-- ===== IMPORTING CSS FILES ==== -->
-    <link rel="stylesheet" href="/Assets/css/style.css">
-    <link rel="stylesheet" href="/Assets/css/color-1.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
-    <!-- ==== STYLE SWITCER ==== -->
-    <link rel="stylesheet" href="/Assets/css/style-switcher.css">
-    <link rel="stylesheet" href="/Assets/css/color-1.css" class="alternate-style" title="color-1">
-    <link rel="stylesheet" href="/Assets/css/color-2.css" class="alternate-style" title="color-2">
-    <link rel="stylesheet" href="/Assets/css/color-3.css" class="alternate-style" title="color-3">
-    <link rel="stylesheet" href="/Assets/css/color-4.css" class="alternate-style" title="color-4">
-    <link rel="stylesheet" href="/Assets/css/color-5.css" class="alternate-style" title="color-5">
+    <!-- ===== IMPORTING CSS FILES ==== -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/color-1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    
+<!-- ==== STYLE SWITCER ==== -->
+    <link rel="stylesheet" href="assets/css/color-1.css" class="alternate-style" title="color-1" disabled>
+    <link rel="stylesheet" href="assets/css/color-2.css" class="alternate-style" title="color-2" disabled>
+    <link rel="stylesheet" href="assets/css/color-3.css" class="alternate-style" title="color-3" disabled>
+    <link rel="stylesheet" href="assets/css/color-4.css" class="alternate-style" title="color-4" disabled>
+    <link rel="stylesheet" href="assets/css/color-5.css" class="alternate-style" title="color-5" disabled>
+    <link rel="stylesheet" href="assets/css/style-switcher.css">
 </head>
 <body>
     <!-- ====== MAIN CONTAINER STARTS HERE ======  -->
@@ -24,7 +25,8 @@
         <!-- ====== ASIDE STARTS HERE ======  -->
         <div class="aside">
             <div class="logo">
-                <a href="#home"><span>D</span>enoe</a>
+                <a href="#"><span>D</span>enoe</a>
+                
             </div>
 
             <!-- ====== ASIDE NAV BAR STARTS HERE ======  -->
@@ -32,14 +34,16 @@
                 <span></span>
             </div>
             <ul class="nav">
-                <li><a href="#home" class="active"><i class="fa fa-home"></i>Home</a></li>
-                <li><a href="#about" > <i class="fa fa-user"></i> About</a></li>
-                <li><a href="#service" ><i class="fa fa-list"></i>Services</a></li>
-                <li><a href="#projects" > <i class="fa fa-briefcase"></i>Projects</a></li>
-                <li><a href="#contact" > <i class="fa fa-comments"></i> Contact</a></li>
+                <li><a href="#home" class="active"><i class="fa fa-home"></i> Home</a></li>
+                
+                <li><a href="#about"><i class="fa fa-user"></i> About</a></li>
+                <li><a href="#service"><i class="fa fa-list"></i> Services</a> </li>
+                <li><a href="#portfolio"><i class="fa fa-briefcase"></i> Portfolio</a></li>
+                <li><a href="#contact"><i class="fa fa-comments"></i> Contact</a></li>
+                <li><a href="https://github.com/denis-mwangi" target="_blank" class="icon-s"><i class="fa fab fa-github"></i> Github</a></li>
+                <li><a href="#" target="_blank" class="icon-s"><i class="fa far fa-file-alt"></i> Download CV</a></li>
             </ul>
             <!-- ====== ASIDE NAV BAR ENDS HERE ======  -->
-
         </div>
 
         <!-- ==== ASIDE ENDS HERE ====  -->
@@ -47,360 +51,418 @@
         <!-- ==== MAIN CONTENT STARTS HERE ==== -->
         <div class="main-content">
             <!-- ====== HOME SECTION STARTS HERE ====== -->
-        <section class="home section" id="home">
-            <div class="container">
-                <div class="row">
-                    <div class="home-info padd-15">
-                        <h3 class="hello">Hello, my name is, <span class="name">Dennis Mungai</span></h3>
-                        <h3 class="my-profession">I'm a <span class="typing">Web Developer</span></h3>
-                        <p>I'm <span class="name">Dennis</span>, a passionate student deeply immersed in the world of web development. This portfolio highlights the skills I'm actively acquiring and refining, showcasing my dedication to mastering the tools and techniques of modern web creation. </p>
-                        <a href="#emailForm" class="btn">Contact</a>
-                        <a href="#" class="btn">Whatsapp</a>
-                    </div>
-                    <div class="home-img padd-15">
-                        <img src="/Assets/images/prof.jpeg" alt="My-picture">
+            <section class="home section" id="home">
+                <div class="container">
+                    <div class="row">
+                        <div class="home-info padd-15">
+                            <h3 class="hello">Hello, my name is <span class="name">Dennis Mungai</span></h3>
+                            <h3 class="my-profession">I' m a <span class="typing">Web Developer</span></h3>
+                            <p>Welcome! I'm <span class="name">Dennis</span>, a passionate student deeply immersed in the world of web development. This portfolio highlights the skills I'm actively acquiring and refining, showcasing my dedication to mastering the tools and techniques of modern web creation. </p>
+                            <a href="#" class="btn">Download CV</a>
+                        </div>
+                        <div class="home-img padd-15">
+                            <img src="/assets/images/prof.jpeg" alt="">
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
         <!-- ====== HOME SECTION ENDS HERE ====== -->
 
          <!-- ====== ABOUT SECTION STARTS HERE ====== -->
          <section class="about section" id="about">
-            <div class="container">
-                <div class="row">
-                    <div class="section-title padd-15">
-                        <h2>About Me</h2>
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>About Me</h2>
+                        </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="about-content padd-15">
-                        <div class="row">
-                            <div class="about-text padd-15">
-                                <h3 class="hello">I'm <span class="name">Dennis Mungai...</span></h3>
+                    <div class="row">
+                        <div class="about-content padd-15">
+                            <div class="row">
+                                <div class="about-text padd-15">
+                                    <h3 class="hello">I'm <span class="name">Dennis Mungai...</span></h3>
                                 <p>I am a quick learner with a self-learning attitude. I love to learn and explore new technologies and am passionate about problem-solving. I love almost all the stacks of web application development and love to make the web more open to the world. My core skill is based on JavaScript and I love to do most of the things using JavaScript. I am available for any kind of job opportunity that suits my skills and interests.</p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="personal-info padd-15">
-                                <div class="row">
-                                    <!-- INFO SUBSECTION STARTS -->
-                                    <div class="info-item padd-15">
-                                        <p>Birthday : <span>21 Jan 2004</span></p>
-                                    </div>
-                                    <div class="info-item padd-15">
-                                        <p>Age : <span>21</span></p>
-                                    </div>
-                                    <div class="info-item padd-15">
-                                        <p>Webiste : <span>www.denweb.great-site.net</span></p>
-                                    </div>
-                                    <div class="info-item padd-15">
-                                        <p>Email : <span>denwe@gmail.com</span></p>
-                                    </div>
-                                    <div class="info-item padd-15">
-                                        <p>Degree : <span>Bsc. Electrical Engineering</span></p>
-                                    </div>
-                                    <div class="info-item padd-15">
-                                        <p>Phone : <span>+254 105 483 095</span></p>
-                                    </div>
-                                    <div class="info-item padd-15">
-                                        <p>City : <span>Nairobi</span></p>
-                                    </div>
-                                    <div class="info-item padd-15">
-                                        <p>Freelance : <span>Available</span></p>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="buttons padd-15">
-                                        <a href="#" class="btn">Download CV</a>
-                                        <a href="#contact" data-section-index="1" class="btn hire-me">Hire Me</a>
-                                    </div>
                                 </div>
                             </div>
-                            <!-- INFO SUBSECTION ENDS -->
+                            <div class="row">
+                                <div class="personal-info padd-15">
+                                    <div class="row">
+                                        <!-- INFO SUBSECTION STARTS -->
+                                        <div class="info-item padd-15">
+                                            <p>Birthday : <span>21 Jan 2004</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Age : <span>21</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Webiste : <span>denweb.great-site.net</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Email : <span>infoden@gmail.com</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Degree : <span>Bsc. Electrical Engineering</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Phone : <span>+254 105 483 095</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>City : <span>Nairobi</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Freelance : <span>Available</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="buttons padd-15">
+                                            <a href="#contact" class="btn hire-me">Hire Me</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- INFO SUBSECTION ENDS -->
 
-                            <!-- SKILLS SUBSECTION STARTS -->
-                            <div class="skills padd-15">
-                                <div class="row">
-                                    <div class="skill-item padd-15">
-                                        <h5>CSS</h5>
-                                        <div class="progress">
-                                            <div class="progress-in" style="width: 76%;"></div>
-                                            <div class="skill-percent">76%</div>
-                                        </div>
-                                    </div>
-                                    <div class="skill-item padd-15">
-                                        <h5>JS</h5>
-                                        <div class="progress">
-                                            <div class="progress-in" style="width: 86%;"></div>
-                                            <div class="skill-percent">86%</div>
-                                        </div>
-                                    </div>
-                                    <div class="skill-item padd-15">
-                                        <h5>Python</h5>
-                                        <div class="progress">
-                                            <div class="progress-in" style="width: 66%;"></div>
-                                            <div class="skill-percent">66%</div>
-                                        </div>
-                                    </div>
-                                    <div class="skill-item padd-15">
-                                        <h5>HTML</h5>
-                                        <div class="progress">
-                                            <div class="progress-in" style="width: 96%;"></div>
-                                            <div class="skill-percent">96%</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- SKILLS SUBSECTION END -->
-
-                        </div>
-                        <div class="row">
-                            <div class="education padd-15">
-                                <h3 class="title">Education</h3>
-                                <div class="row">
-                                    <div class="timelinebox padd-15">
-                                        <div class="timeline shadow-dark">
-                                            <!-- TIME LINE ITEM -->
-                                            <div class="timeline-item">
-                                                <div class="circle-dot"></div>
-                                                <h3 class="timeline-date">
-                                                    <i class="fa fa-calendar"></i> 2023 - Present
-                                                </h3>
-                                                <h4 class="timeline-title">Multimedia University of Kenya</h4>
-                                                <p>Bachelor of Science in Electrical Engineering</p>
-                                                <p>Nairobi, Kenya</p>
+                                <!-- SKILLS SUBSECTION STARTS -->
+                                <div class="skills padd-15">
+                                    <div class="row">
+                                        <div class="skill-item padd-15">
+                                            <h5>CSS</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 76%;"></div>
+                                                <div class="skill-percent">76%</div>
                                             </div>
-                                            <div class="timeline-item">
-                                                <div class="circle-dot"></div>
-                                                <h3 class="timeline-date">
-                                                    <i class="fa fa-calendar"> </i> 2019 - Present
-                                                </h3>
-                                                <h4 class="timeline-title"> Power Learn Project Academy</h4>
-                                                <p>Software Development</p>
-                                                <p>Nairobi, Kenya</p>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>JS</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 86%;"></div>
+                                                <div class="skill-percent">86%</div>
                                             </div>
-                                            <div class="timeline-item">
-                                                <div class="circle-dot"></div>
-                                                <h3 class="timeline-date">
-                                                    <i class="fa fa-calendar "> </i> 2019 - 2022
-                                                </h3>
-                                                <h4 class="timeline-title"> Kiaguthu Boys High School</h4>
-                                                <p>High School Certificate 8-4-4 Curriculum</p>
-                                                <p>Murang'a, Kenya</p>
-
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>Python</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 66%;"></div>
+                                                <div class="skill-percent">66%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>HTML</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 96%;"></div>
+                                                <div class="skill-percent">96%</div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+                                <!-- SKILLS SUBSECTION END -->
                             </div>
-                            
+                            <div class="row">
+                                <div class="education padd-15">
+                                    <h3 class="title">Education</h3>
+                                    <div class="row">
+                                        <div class="timelinebox padd-15">
+                                            <div class="timeline shadow-dark">
+                                                <!-- TIME LINE ITEM -->
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> 2023 - Present
+                                                    </h3>
+                                                    <h4 class="timeline-title">Multimedia University of Kenya</h4>
+                                                    <p> Bsc. Electrical and Telecommunication<p>
+                                                    <p>Nairobi, Kenya</p>
+                                                </div>
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"> </i> 2019 - Present
+                                                    </h3>
+                                                    <h4 class="timeline-title"> Power Learn Project Academy</h4>
+                                                    <p>Software Development</p>
+                                                    <p>Nairobi, Kenya</p>
+                                                </div>
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar "> </i> 2019 - 2022
+                                                    </h3>
+                                                    <h4 class="timeline-title"> Kiaguthu Boys High School</h4>
+                                                    <p>High School Certificate 8-4-4 Curriculum</p>
+                                                    <p>Murang'a, Kenya</p>
+    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
         <!-- ====== ABOUT SECTION ENDS HERE ====== -->
 
         <!-- ====== SERVICES SECTION STARTS HERE ====== -->
-        <div class="service section" id="service">
+        <section class="service section" id="service">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Services</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                    <!-- === SERVICE ITEM STARTS HERE === -->
+                    <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-mobile-alt"></i>
+                                </div>
+                                <h4>Web Design</h4>
+                                <p>Creating beautiful, intuitive interfaces with a focus on usability and accessibility </p>
+                            </div>
+                        </div>
+                    <!-- === SERVICE ITEM ENDS HERE === -->
+
+                    <!-- === SERVICE ITEM STARTS HERE === -->
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-lightbulb"></i>
+                                </div>
+                                <h4>Problem Solving</h4>
+                                <p>Finding elegant solutions to complex problems with efficiency and creativity.</p>
+                            </div>
+                        </div>
+                    <!-- === SERVICE ITEM ENDS HERE === -->
+
+                    <!-- === SERVICE ITEM STARTS HERE === -->
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-laptop-code"></i>
+                                </div>
+                                <h4>Responsive Design</h4>
+                            <p>Crafting websites that deliver optimal viewing experiences across all device sizes.</p>
+                            </div>
+                        </div>
+                    <!-- === SERVICE ITEM ENDS HERE === -->
+
+                    <!-- === SERVICE ITEM STARTS HERE === -->
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fas fa-microchip"></i>
+                                </div>
+                                <h4>Development</h4>
+                                <p>Building simple web applications using modern technologies and best practices.</p>
+                            </div>
+                        </div>
+                    <!-- === SERVICE ITEM ENDS HERE === -->
+
+                    <!-- === SERVICE ITEM STARTS HERE === -->
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fas fa-code"></i>
+                                </div>
+                                <h4>Front-end Development</h4>
+                                <p>Building interactive and dynamic user interfaces using modern JavaScript frameworks and libraries.</p>
+                            </div>
+                        </div>
+                    <!-- === SERVICE ITEM ENDS HERE === -->
+
+                    <!-- === SERVICE ITEM STARTS HERE === -->
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fas fa-puzzle-piece"></i>
+                                </div>
+                                <h4>Web Component Development</h4>
+                                <p>Building reusable and encapsulated UI elements using web component standards for efficient web development.p>
+                            </div>
+                        </div>
+                    <!-- === SERVICE ITEM ENDS HERE === -->
+                </div>
+                </div>
+            </section>
+        <!-- ====== SERVICES SECTION ENDS HERE ====== -->
+
+        <section class="portfolio section" id="portfolio">
             <div class="container">
                 <div class="row">
                     <div class="section-title padd-15">
-                        <h2>Services</h2>
+                        <h2>Portfolio</h2>
                     </div>
                 </div>
                 <div class="row">
-                    <!-- === SERVICE ITEM STARTS HERE === -->
-                    <div class="service-item padd-15">
-                        <div class="service-item-inner">
-                            <div class="icon">
-                                <i class="fa fa-mobile-alt"></i>
-                            </div>
-                            <h4>Web Design</h4>
-                            <p>Creating beautiful, intuitive interfaces with a focus on usability and accessibility.</p>
-
-                        </div>
+                    <div class="portfolio-heading padd-15">
+                        <h2>My Latest Projects :</h2>
                     </div>
-                    <!-- === SERVICE ITEM ENDS HERE === -->
-
-                    <!-- === SERVICE ITEM STARTS HERE === -->
-                    <div class="service-item padd-15">
-                        <div class="service-item-inner">
-                            <div class="icon">
-                                <i class="fa fa-lightbulb"></i>
-                            </div>
-                            <h4>Problem Solving</h4>
-                            <p>Finding elegant solutions to complex problems with efficiency and creativity.</p>
-
-                        </div>
-                    </div>
-                    <!-- === SERVICE ITEM ENDS HERE === -->
-
-                    <!-- === SERVICE ITEM STARTS HERE === -->
-                    <div class="service-item padd-15">
-                        <div class="service-item-inner">
-                            <div class="icon">
-                                <i class="fa fa-laptop-code"></i>
-                            </div>
-                            <h4>Responsive Design</h4>
-                            <p>Crafting websites that deliver optimal viewing experiences across all device sizes.</p>
-
-                        </div>
-                    </div>
-                    <!-- === SERVICE ITEM ENDS HERE === -->
-
-                    <!-- === SERVICE ITEM STARTS HERE === -->
-                    <div class="service-item padd-15">
-                        <div class="service-item-inner">
-                            <div class="icon">
-                                <i class="fa fa-code"></i>
-                            </div>
-                            <h4>Development</h4>
-                            <p>Building simple web applications using modern technologies and best practices.</p>
-
-                        </div>
-                    </div>
-                    <!-- === SERVICE ITEM ENDS HERE === -->
-
-                    <!-- === SERVICE ITEM STARTS HERE === -->
-                    <div class="service-item padd-15">
-                        <div class="service-item-inner">
-                            <div class="icon">
-                                <i class="fa fas fas fa-microchip"></i>
-                            </div>
-                            <h4>Development</h4>
-                            <p>ICrafting efficient embedded solutions with C++ for optimized hardware performance.</p>
-
-                        </div>
-                    </div>
-                    <!-- === SERVICE ITEM ENDS HERE === -->
-
-                    <!-- === SERVICE ITEM STARTS HERE === -->
-                    <div class="service-item padd-15">
-                        <div class="service-item-inner">
-                            <div class="icon">
-                                <i class="fa fas fas fa-microchip"></i>
-                            </div>
-                            <h4>Development</h4>
-                            <p>haring knowledge and guiding aspiring developers to reach their full potential.</p>
-
-                        </div>
-                    </div>
-                    <!-- === SERVICE ITEM ENDS HERE === -->
-                    
-
                 </div>
+                <div class="row">
+                    <div class="portfolio-item padd-15">
+                        <div class="portfolio-item-inner shadow-dark">
+                            <div class="portfolio-img">
+                                <img src="/assets/images/portfolio/portfolio-1.png" alt="Project 1">
+                            </div>
+                            <div class="portfolio-info">
+                                <h3>Project 1: Modern landing page</h3>
+                                <p>This is a modern animated landing page developed simply to make it easy for people and friends to access my fun porjects.</p>
+                                <div class="portfolio-links">
+                                    <a href="#" target="_blank"><i class="fa fa-eye"></i> Live Demo</a>
+                                    <a href="#" target="_blank"><i class="fa fab fa-github"></i> GitHub Repo</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item padd-15">
+                        <div class="portfolio-item-inner shadow-dark">
+                            <div class="portfolio-img">
+                                <img src="/assets/images/portfolio/project-2.png" alt="Project 2">
+                            </div>
+                            <div class="portfolio-info">
+                                <h3>Project 2: Movie landing page</h3>
+                                <p>This is a modern animated movie landing page. It is developed using Javascript, HTML and CSS. It is given a modern look.</p>
+                                <div class="portfolio-links">
+                                    <a href="#" target="_blank"><i class="fa fa-eye"></i> Live Demo</a>
+                                    <a href="#" target="_blank"><i class="fa fab fa-github"></i> GitHub Repo</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item padd-15">
+                        <div class="portfolio-item-inner shadow-dark">
+                            <div class="portfolio-img">
+                                <img src="/assets/images/portfolio/project-3.png" alt="Project 3">
+                            </div>
+                            <div class="portfolio-info">
+                                <h3>Project 1: To do-list</h3>
+                                <p>This is a work in progress to do list. It is developed using HTML, CSS and Javascript. The backend is the work in progress which will give users full functionality</p>
+                                <div class="portfolio-links">
+                                    <a href="#" target="_blank"><i class="fa fa-eye"></i> Live Demo</a>
+                                    <a href="#" target="_blank"><i class="fa fab fa-github"></i> GitHub Repo</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item padd-15">
+                        <div class="portfolio-item-inner shadow-dark">
+                            <div class="portfolio-img">
+                                <img src="/assets/images/portfolio/project-4.png" alt="Project 4">
+                            </div>
+                            <div class="portfolio-info">
+                                <h3>Project 4: Personal Website</h3>
+                                <p>This is a personal website, developed as my very first project. Hosted on infinity free, it is a work in progress with huge potential. Right now i use it for fun.</p>
+                                <div class="portfolio-links">
+                                    <a href="#" target="_blank"><i class="fa fa-eye"></i> Live Demo</a>
+                                    <a href="#" target="_blank"><i class="fa fab fa-github"></i> GitHub Repo</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
             </div>
-        </div>
-        <!-- ====== SERVICES SECTION ENDS HERE ====== -->
+        </section>
 
         <!-- ====== CONTACT SECTION STARTS HERE ====== -->
         <section class="contact section" id="contact">
-            <div class="container">
-                <div class="row">
-                    <div class="section-title padd-15">
-                        <h2>Contact Me</h2>
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Contact Me</h2>
+                        </div>
                     </div>
+                    <h3 class="contact-title padd-15">Have You Any Questions ?</h3>
+                    <h4 class="contact-sub-title padd-15">I'M AT YOUR SERVICE</h4>
+                    <div class="row">
+                        <!-- CONTACT INFO START -->
+                        <div class="contact-info-item padd-15 ">
+                            <div class="icon">
+                                <i class="fa fa-phone"></i>
+                            </div>
+                            <h4>Call Us on</h4>
+                            <p>+254 105 483 095</p>
+                        </div>
+                        <!-- CONTACT INFO END -->
+
+                        <!-- CONTACT INFO START -->
+                        <div class="contact-info-item padd-15 ">
+                            <div class="icon">
+                                <i class="fa fas fas fas fa-map-marker-alt"></i>
+                            </div>
+                            <h4>Kenya</h4>
+                            <p>Nairobi</p>
+                        </div>
+                        <!-- CONTACT INFO END -->
+
+                        <!-- CONTACT INFO START -->
+                        <div class="contact-info-item padd-15 ">
+                            <div class="icon">
+                                <i class="fa fa-envelope"></i>
+                            </div>
+                            <h4>Email</h4>
+                            <p>info@gmail.com</p>
+                        </div>
+                        <!-- CONTACT INFO END -->
+
+                        <!-- CONTACT INFO START -->
+                        <div class="contact-info-item padd-15 ">
+                            <div class="icon">
+                                <i class="fa fas fas fas fas fab fab fa-telegram"></i>
+                            </div>
+                            <h4>Whatsapp</h4>
+                            <p>Whatsapp</p>
+                        </div>
+                        <!-- CONTACT INFO END -->
+
+                    </div>
+                    <h3 class="contact-title padd-15">SEND ME AN EMAIL</h3>
+                    <h4 class="contact-sub-title padd-15">I'M VERY RESPOSIVE TO MESSAGES</h4>
+                    <!-- CONTACT FORM STARTS HERE -->
+                    <div class="row">
+                        <form action="" class="contact-form padd-15">
+                            <div class="contact-form padd-15">
+                                <div class="row">
+                                    <div class="form-item col-6 padd-15">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Your Name" required>
+                                        </div>
+                                    </div>
+                                    <div class="form-item col-6 padd-15">
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" placeholder="Your Email" required>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="form-item col-12 padd-15">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Subject" required>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="form-item col-12 padd-15">
+                                        <div class="form-group">
+                                            <textarea name="" class="form-control" id="" placeholder="Your Message" required ></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="form-item col-12 padd-15">
+                                        <button type="submit" class="btn" >Send Message</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- CONTACT FORM ENDS HERE -->
                 </div>
-                <h3 class="contact-title padd-15">Have You Any Questions ?</h3>
-                <h4 class="contact-sub-title padd-15">I'M AT YOUR SERVICE</h4>
-                <div class="row">
-                    <!-- CONTACT INFO START -->
-                    <div class="contact-info-item padd-15 ">
-                        <div class="icon">
-                            <i class="fa fa-phone"></i>
-                        </div>
-                        <h4>Call Us on</h4>
-                        <p>+254 105 483 095</p>
-                    </div>
-                    <!-- CONTACT INFO END -->
-
-                    <!-- CONTACT INFO START -->
-                    <div class="contact-info-item padd-15 ">
-                        <div class="icon">
-                            <i class="fa fas fas fas fa-map-marker-alt"></i>
-                        </div>
-                        <h4>Kenya</h4>
-                        <p>Nairobi</p>
-                    </div>
-                    <!-- CONTACT INFO END -->
-
-                    <!-- CONTACT INFO START -->
-                    <div class="contact-info-item padd-15 ">
-                        <div class="icon">
-                            <i class="fa fa-envelope"></i>
-                        </div>
-                        <h4>Email</h4>
-                        <p>info@gmail.com</p>
-                    </div>
-                    <!-- CONTACT INFO END -->
-
-                    <!-- CONTACT INFO START -->
-                    <div class="contact-info-item padd-15 ">
-                        <div class="icon">
-                            <i class="fa fas fas fas fas fab fab fa-telegram"></i>
-                        </div>
-                        <h4>Whatsapp</h4>
-                        <p>Whatsapp</p>
-                    </div>
-                    <!-- CONTACT INFO END -->
-
-                </div>
-                <h3 class="contact-title padd-15">SEND ME AN EMAIL</h3>
-                <h4 class="contact-sub-title padd-15">I'M VERY RESPOSIVE TO MESSAGES</h4>
-                <!-- CONTACT FORM STARTS HERE -->
-                <div class="row">
-                    <form action="https://formsubmit.co/c3f7e8d30f3a1de4470ab7ec57c6db2b" class="contact-form padd-15" method="POST">
-                        <div class="contact-form padd-15">
-                            <div class="row">
-                                <div class="form-item col-6 padd-15">
-                                    <div class="form-group">
-                                        <input type="text" name="name" class="form-control" placeholder="Your Name" required>
-                                    </div>
-                                </div>
-                                <div class="form-item col-6 padd-15">
-                                    <div class="form-group">
-                                        <input type="email" name="email" class="form-control" placeholder="Your Email" required>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row" id="emailForm">
-                                <div class="form-item col-12 padd-15">
-                                    <div class="form-group">
-                                        <input type="text" name="subject" class="form-control" placeholder="Subject" required>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="form-item col-12 padd-15">
-                                    <div class="form-group">
-                                        <textarea name="message" class="form-control" id="" placeholder="Your Message" required ></textarea>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="form-item col-12 padd-15">
-                                    <button type="submit" class="btn" >Send Message</button>
-                                    <input type="hidden" name="_template" value="table">
-                                    <input type="hidden" name="_next" value="http://127.0.0.1:5501//thanks.html">
-                                    <input type="hidden" name="_captcha" value="false">
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-                <!-- CONTACT FORM ENDS HERE -->
-            </div>
-        </section>
-        <!-- ====== CONTACT SECTION ENDS HERE ====== -->
-
-        </div>
-
+            </section>
+        <!-- ====== CONTACT SECTION STARTS HERE ====== -->
+    </div>
         <!-- ====== MAIN CONTENT ENDS HERE ====== -->
 
     </div>
-
     <!-- ====== MAIN CONTAINER ENDS HERE ======  -->
 
     <!-- ======== STYLE SWITCHER START ======== -->
@@ -408,7 +470,7 @@
         <div class="style-switcher-toggler s-icon">
             <i class="fas fa-cog fa-spin"></i>
         </div>
-        <div class="fa day-night s-icon">
+        <div class="day-night s-icon">
             <i class="fas "></i>
         </div>
         <h4>Theme Colors</h4>
@@ -422,8 +484,9 @@
     </div>
     <!-- ======== STYLE SWITCHER END ======== -->
 
+    <!-- Js files -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js" integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="/Assets/jsFiles/script.js"></script>
-    <script src="/Assets/jsFiles/style-switcher.js"></script>
+    <script src="/assets/script.js"></script>
+    <script src="/assets/style-switcher.js"></script>
 </body>
 </html>
