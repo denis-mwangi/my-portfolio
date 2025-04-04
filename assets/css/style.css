@@ -924,3 +924,116 @@ h3.my-profession{
     }
 
 }
+
+/* Add these styles to your /assets/css/style.css file */
+
+.footer {
+    background-color: var(--bg-black-900);
+    padding: 20px 0;
+    text-align: center;
+    border-top: 1px solid var(--bg-black-900);
+}
+
+.footer .container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.footer .row {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Vertically center items */
+    flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+}
+
+.footer .footer-text {
+    color: var(--text-white-900);
+    font-size: 14px;
+    margin-right: 20px; /* Add some spacing between text and icons */
+}
+
+.footer .social-icons {
+    display: flex;
+    align-items: center;
+}
+
+.footer .social-icons a {
+    color: var(--text-white-700);
+    font-size: 20px;
+    margin: 0 10px;
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+
+/* Responsive adjustments (optional) */
+@media (max-width: 767px) {
+    .footer {
+        padding: 15px 0;
+    }
+
+    .footer .footer-text {
+        font-size: 12px;
+        margin-right: 10px;
+    }
+
+    .footer .social-icons a {
+        font-size: 18px;
+        margin: 0 5px;
+    }
+}
+.footer {
+    background-color: var(--bg-black-900);
+    padding: 20px 0;
+    text-align: center;
+    border-top: 1px solid var(--bg-black-100);
+}
+
+.footer .container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.footer .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer .social-icons {
+    display: flex;
+    justify-content: center; /* Center icons horizontally */
+    align-items: center;
+    margin-bottom: 15px; /* Increased spacing between icons and text */
+}
+
+.footer .social-icons a {
+    color: #333;
+    font-size: 28px; /* Increased icon size */
+    margin: 0 20px; /* Increased spacing between icons */
+    transition: color 0.3s ease;
+    color: var(--skin-color);
+}
+
+
+.footer .footer-text {
+    color: var(--text-white-700);
+    font-size: 16px; /* Increased font size */
+}
+
+/* Responsive adjustments (optional) */
+@media (max-width: 767px) {
+    .footer {
+        padding: 15px 0;
+    }
+
+    .footer .social-icons a {
+        font-size: 24px; /* Adjusted icon size for smaller screens */
+        margin: 0 15px; /* Adjusted spacing for smaller screens */
+    }
+
+    .footer .footer-text {
+        font-size: 14px; /* Adjusted font size for smaller screens */
+    }
+}
