@@ -53,14 +53,14 @@
 ```sh
 └── my-portfolio/
     ├── assets
-    │   ├── css
+    │   ├── css ── thanks.css
+    |   |        └── thanks.html
+    │   └── style-switcher.js         
     │   ├── images
     │   ├── script.js
     │   └── style-switcher.js
     ├── index.html
-    ├── thanks.css
-    └── thanks.html
-```
+    ├
 
 
 ### 📂 Project Index
@@ -71,19 +71,15 @@
 		<blockquote>
 			<table>
 			<tr>
-				<td><b><a href='https://github.com/denis-mwangi/my-portfolio/blob/main/thanks.html'>thanks.html</a></b></td>
+				<td><b><a href='https://github.com/denis-mwangi/my-portfolio/main/thanks.html'>thanks.html</a></b></td>
 				<td><code> This page is used to be displayed once the user submitts a log in form</code></td>
 			</tr>
 			<tr>
-				<td><b><a href='https://github.com/denis-mwangi/my-portfolio/blob/main/index.html'>index.html</a></b></td>
+				<td><b><a href='https://github.com/denis-mwangi/my-portfolio/main/index.html'>index.html</a></b></td>
 				<td><code> This page is the main page conatining all the sections in the porfolio.</code></td>
 			</tr>
 			<tr>
-				<td><b><a href='https://github.com/denis-mwangi/my-portfolio/blob/main/script.js'>script.js</a></b></td>
-				<td><code>This is the main logic for the page this script is used to toggle the navigation bar for small</code></td>
-			</tr>
-            <tr>
-				<td><b><a href='https://github.com/denis-mwangi/my-portfolio/blob/main/script.js'>script.js</a></b></td>
+				<td><b><a href='https://github.com/denis-mwangi/my-portfolio/main/assets/script.js'>script.js</a></b></td>
 				<td><code>This is the main logic for the page this script is used to toggle the navigation bar for small</code></td>
 			</tr>
 			</table>
