@@ -1,14 +1,14 @@
 <div align="left" style="position: relative;">
 <img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/ec559a9f6bfd399b82bb44393651661b08aaf7ba/icons/folder-markdown-open.svg" align="right" width="30%" style="margin: -20px 0 0 20px;">
-<h1>MY-PORTFOLIO</h1>
+<h1>MY-PORTFOLIO.GIT</h1>
 <p align="left">
 	<em><code>❯ REPLACE-ME</code></em>
 </p>
 <p align="left">
-	<img src="https://img.shields.io/github/license/denis-mwangi/my-portfolio?style=default&logo=opensourceinitiative&logoColor=white&color=00ff98" alt="license">
-	<img src="https://img.shields.io/github/last-commit/denis-mwangi/my-portfolio?style=default&logo=git&logoColor=white&color=00ff98" alt="last-commit">
-	<img src="https://img.shields.io/github/languages/top/denis-mwangi/my-portfolio?style=default&color=00ff98" alt="repo-top-language">
-	<img src="https://img.shields.io/github/languages/count/denis-mwangi/my-portfolio?style=default&color=00ff98" alt="repo-language-count">
+	<img src="https://img.shields.io/github/license/denis-mwangi/my-portfolio.git?style=default&logo=opensourceinitiative&logoColor=white&color=00ff98" alt="license">
+	<img src="https://img.shields.io/github/last-commit/denis-mwangi/my-portfolio.git?style=default&logo=git&logoColor=white&color=00ff98" alt="last-commit">
+	<img src="https://img.shields.io/github/languages/top/denis-mwangi/my-portfolio.git?style=default&color=00ff98" alt="repo-top-language">
+	<img src="https://img.shields.io/github/languages/count/denis-mwangi/my-portfolio.git?style=default&color=00ff98" alt="repo-language-count">
 </p>
 <p align="left"><!-- default option, no dependency badges. -->
 </p>
@@ -38,53 +38,40 @@
 
 ## 📍 Overview
 
-<code>This project focuses on a modern simple portfolio build with HTML CSS and Javascript.</code>
+<code>❯ REPLACE-ME</code>
 
 ---
 
 ## 👾 Features
 
-<code>1. Darkmode and light mode.
-      2. Theme color switcher.
-      3. modern aside section.
-      
-      </code>
+<code>❯ REPLACE-ME</code>
 
 ---
 
 ## 📁 Project Structure
 
 ```sh
-└── my-portfolio/
+└── my-portfolio.git/
+    ├── README.md
     ├── assets
     │   ├── css
     │   ├── images
     │   ├── script.js
     │   └── style-switcher.js
-    ├── index.html
-    ├── thanks.css
-    └── thanks.html
+    └── index.html
 ```
 
 
 ### 📂 Project Index
 <details open>
-	<summary><b><code>MY-PORTFOLIO/</code></b></summary>
+	<summary><b><code>MY-PORTFOLIO.GIT/</code></b></summary>
 	<details> <!-- __root__ Submodule -->
 		<summary><b>__root__</b></summary>
 		<blockquote>
 			<table>
 			<tr>
-				<td><b><a href='https://github.com/denis-mwangi/my-portfolio/blob/master/thanks.html'>thanks.html</a></b></td>
-				<td><code> This page is used to be displayed once the user submitts a log in form</code></td>
-			</tr>
-			<tr>
-				<td><b><a href='https://github.com/denis-mwangi/my-portfolio/blob/master/index.html'>index.html</a></b></td>
-				<td><code> This page is the main page conatining all the sections in the porfolio.</code></td>
-			</tr>
-			<tr>
-				<td><b><a href='https://github.com/denis-mwangi/my-portfolio/blob/master/script.js'>script.js</a></b></td>
-				<td><code>This is the main logic for the page this script is used to toggle the navigation bar for small</code></td>
+				<td><b><a href='https://github.com/denis-mwangi/my-portfolio.git/blob/master/index.html'>index.html</a></b></td>
+				<td><code>❯ REPLACE-ME</code></td>
 			</tr>
 			</table>
 		</blockquote>
@@ -96,55 +83,55 @@
 
 ### ☑️ Prerequisites
 
-Before getting started with my-portfolio, ensure your runtime environment meets the following requirements:
+Before getting started with my-portfolio.git, ensure your runtime environment meets the following requirements:
 
-- **Programming Language:** HTML, CSS and Javascript
+- **Programming Language:** HTML
 
 
 ### ⚙️ Installation
 
-Install my-portfolio using one of the following methods:
+Install my-portfolio.git using one of the following methods:
 
 **Build from source:**
 
-1. Clone the my-portfolio repository:
+1. Clone the my-portfolio.git repository:
 ```sh
-❯ git clone https://github.com/denis-mwangi/my-portfolio
+❯ git clone https://github.com/denis-mwangi/my-portfolio.git
 ```
 
 2. Navigate to the project directory:
 ```sh
-❯ cd my-portfolio
+❯ cd my-portfolio.git
 ```
+
+3. Install the project dependencies:
+
+echo 'INSERT-INSTALL-COMMAND-HERE'
 
 
 
 ### 🤖 Usage
-Once on the project directory
-run `code .` - to open Vs code
-Install a live server extension and Press on `Go Live`
+Run my-portfolio.git using the following command:
+echo 'INSERT-RUN-COMMAND-HERE'
 
-
+### 🧪 Testing
+Run the test suite using the following command:
+echo 'INSERT-TEST-COMMAND-HERE'
 
 ---
 ## 📌 Project Roadmap
 
-- [X] **`Task 1`**: <strike>Add the aside section</strike>
-- [ ] **`Task 2`**: Add the Home section
-- [ ] **`Task 3`**: Add the About section
-- [ ] **`Task 4`**: Add the Services section
-- [ ] **`Task 5`**: Add the Portfolio section
-- [ ] **`Task 6`**: Add the Contact section
-- [ ] **`Task 7`**: Add the footer
-
+- [X] **`Task 1`**: <strike>Implement feature one.</strike>
+- [ ] **`Task 2`**: Implement feature two.
+- [ ] **`Task 3`**: Implement feature three.
 
 ---
 
 ## 🔰 Contributing
 
-- **💬 [Join the Discussions](https://github.com/denis-mwangi/my-portfolio/discussions)**: Share your insights, provide feedback, or ask questions.
-- **🐛 [Report Issues](https://github.com/denis-mwangi/my-portfolio/issues)**: Submit bugs found or log feature requests for the `my-portfolio` project.
-- **💡 [Submit Pull Requests](https://github.com/denis-mwangi/my-portfolio/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
+- **💬 [Join the Discussions](https://github.com/denis-mwangi/my-portfolio.git/discussions)**: Share your insights, provide feedback, or ask questions.
+- **🐛 [Report Issues](https://github.com/denis-mwangi/my-portfolio.git/issues)**: Submit bugs found or log feature requests for the `my-portfolio.git` project.
+- **💡 [Submit Pull Requests](https://github.com/denis-mwangi/my-portfolio.git/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
 
 <details closed>
 <summary>Contributing Guidelines</summary>
@@ -152,7 +139,7 @@ Install a live server extension and Press on `Go Live`
 1. **Fork the Repository**: Start by forking the project repository to your github account.
 2. **Clone Locally**: Clone the forked repository to your local machine using a git client.
    ```sh
-   git clone https://github.com/denis-mwangi/my-portfolio
+   git clone https://github.com/denis-mwangi/my-portfolio.git
    ```
 3. **Create a New Branch**: Always work on a new branch, giving it a descriptive name.
    ```sh
@@ -175,8 +162,8 @@ Install a live server extension and Press on `Go Live`
 <summary>Contributor Graph</summary>
 <br>
 <p align="left">
-   <a href="https://github.com{/denis-mwangi/my-portfolio/}graphs/contributors">
-      <img src="https://contrib.rocks/image?repo=denis-mwangi/my-portfolio">
+   <a href="https://github.com{/denis-mwangi/my-portfolio.git/}graphs/contributors">
+      <img src="https://contrib.rocks/image?repo=denis-mwangi/my-portfolio.git">
    </a>
 </p>
 </details>
@@ -191,6 +178,6 @@ This project is protected under the [SELECT-A-LICENSE](https://choosealicense.co
 
 ## 🙌 Acknowledgments
 
-- Dennis Mungai
+- List any resources, contributors, inspiration, etc. here.
 
 ---
