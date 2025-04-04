@@ -46,7 +46,8 @@
 
 ## 👾 Features
 
-<code>❯ REPLACE-ME</code>
+<code>Has a dark mode and a light mode faeture</code>
+<code>Has a style switcher for changing the color theme</code>
 
 ---
 
