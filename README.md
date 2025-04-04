@@ -2,7 +2,6 @@
 <img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/ec559a9f6bfd399b82bb44393651661b08aaf7ba/icons/folder-markdown-open.svg" align="right" width="30%" style="margin: -20px 0 0 20px;">
 <h1>Denoe's Porfolio</h1>
 <p align="left">
-	<em><code>❯ REPLACE-ME</code></em>
 </p>
 <p align="left">
 	<img src="https://img.shields.io/github/license/denis-mwangi/my-portfolio.git?style=default&logo=opensourceinitiative&logoColor=white&color=00ff98" alt="license">
@@ -38,7 +37,10 @@
 
 ## 📍 Overview
 
-<code>❯ REPLACE-ME</code>
+<code>This project aims to develop a dynamic and visually engaging personal portfolio website to showcase my skills, projects, and professional experiences. The website will serve as a central hub for potential employers, clients, and collaborators to learn about my capabilities and achievements.
+
+
+</code>
 
 ---
 
