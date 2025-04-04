@@ -71,16 +71,20 @@
 		<blockquote>
 			<table>
 			<tr>
-				<td><b><a href='https://github.com/denis-mwangi/my-portfolio/blob/master/thanks.html'>thanks.html</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><b><a href='https://github.com/denis-mwangi/my-portfolio/blob/main/thanks.html'>thanks.html</a></b></td>
+				<td><code> This page is used to be displayed once the user submitts a log in form</code></td>
 			</tr>
 			<tr>
-				<td><b><a href='https://github.com/denis-mwangi/my-portfolio/blob/master/index.html'>index.html</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><b><a href='https://github.com/denis-mwangi/my-portfolio/blob/main/index.html'>index.html</a></b></td>
+				<td><code> This page is the main page conatining all the sections in the porfolio.</code></td>
 			</tr>
 			<tr>
-				<td><b><a href='https://github.com/denis-mwangi/my-portfolio/blob/master/thanks.css'>thanks.css</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><b><a href='https://github.com/denis-mwangi/my-portfolio/blob/main/script.js'>script.js</a></b></td>
+				<td><code>This is the main logic for the page this script is used to toggle the navigation bar for small</code></td>
+			</tr>
+            <tr>
+				<td><b><a href='https://github.com/denis-mwangi/my-portfolio/blob/main/script.js'>script.js</a></b></td>
+				<td><code>This is the main logic for the page this script is used to toggle the navigation bar for small</code></td>
 			</tr>
 			</table>
 		</blockquote>
@@ -126,12 +130,12 @@ Install a live server extension and Press on `Go Live`
 ## 📌 Project Roadmap
 
 - [X] **`Task 1`**: <strike>Add the aside section</strike>
-- [ ] **`Task 2`**: <strike>Add the Home section</strike>
-- [ ] **`Task 3`**: <strike>Add the About section</strike>
-- [ ] **`Task 4`**: <strike>Add the Services section</strike>
-- [ ] **`Task 5`**: <strike>Add the Portfolio section</strike>
-- [ ] **`Task 6`**: <strike>Add the Contact section</strike>
-- [ ] **`Task 7`**: <strike>Add the footer</strike>
+- [ ] **`Task 2`**: Add the Home section
+- [ ] **`Task 3`**: Add the About section
+- [ ] **`Task 4`**: Add the Services section
+- [ ] **`Task 5`**: Add the Portfolio section
+- [ ] **`Task 6`**: Add the Contact section
+- [ ] **`Task 7`**: Add the footer
 
 
 ---
